@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #c0c7cb;
+}
+.first{
+  margin: 100px auto;
+  width: 50%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px black, -5px -5px 15px rgb(151, 147, 147);
+}
+.first{
+  position: relative;
+}
+.first .img1{
+  width: 90%;
+  margin: 25px 0px 0px 30px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 30px ;
+  border-bottom-right-radius: 30px ;
+}
+.first .img2, .img3{
+  width: 43%;
+  border-radius: 30px;
+  margin: 20px 0px 20px 0px ;
+}
+.img2{
+  position: relative;
+  left: 5%;
+}
+.img3{
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100% ;
+  position: absolute;
+  top: 64.5%;
+  left: 51%;
+}

@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #164266;
+}
+.first img{
+	width: 250px;
+	height: 150px;
+}
+.first div{
+	width: 500px;
+	height: 200px;
+	background-color: #ADC8C7;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 75px ;
+	border-radius: 20px;
+	position: absolute;
+	top: 200px;
+	left: 400px;
+	z-index: -1;
+
+}
+.first div p {
+	text-align: center;
+}
+.first{
+	position: relative;
+}
+.first .img1{
+	position: absolute;
+	top: 330px;
+	left: 270px;
+	border-radius: 40%;
+}
+.first .img3{
+	position: absolute;
+	left: 760px;
+	border-radius: 30%;
+	top: 100px;
+}
